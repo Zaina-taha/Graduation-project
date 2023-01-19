@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="popup.js"></script>
+
+    <style>
+
+.highlight {
+    background-color: yellow;
+}
+        h2.groove {
+            margin: 0;
+            padding: 0;
+            width: 250px;
+            height: 40px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 260px;
+            background-color: #f1f1f1;
+
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            font-size: 15px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: rgb(121, 117, 117);
+            color: white;
+        }
+        .btnclass {
+        display: flex;
+        justify-content: center;
+    }
+    </style>
+ 
+
+</head>
+
+<body>
+
+
+    <form>
+    <h2 class="groove" style="font-family:Arial, Helvetica, sans-serif;">Video Annotation Extension</h2>
+    <div id="host" name="host"> </div>
+    <table id="Host"></table>
+    <form>
+        <input type="hidden"  name="link" id="response" />
+    <button class="button-15" name="myButton" id="myButton">SHOW Annotations</button>
+    </form>
+
+
+</body>
+
+</html>
